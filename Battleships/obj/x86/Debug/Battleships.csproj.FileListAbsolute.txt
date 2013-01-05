@@ -1,0 +1,12 @@
+F:\Code\dotnet\Battleships\Battleships\Battleships\bin\Debug\Battleships.exe
+F:\Code\dotnet\Battleships\Battleships\Battleships\bin\Debug\Battleships.pdb
+F:\Code\dotnet\Battleships\Battleships\Battleships\obj\x86\Debug\Battleships.exe
+F:\Code\dotnet\Battleships\Battleships\Battleships\obj\x86\Debug\Battleships.pdb
+F:\Code\dotnet\Battleships\Battleships\Battleships\obj\x86\Debug\Battleships.csprojResolveAssemblyReference.cache
+F:\Code\dotnet\Battleships\Battleships\Battleships\bin\Debug\Battleships.exe.config
+C:\Users\justin.moser\Dropbox\Work\Battleships\Battleships\Battleships\bin\Debug\Battleships.exe.config
+C:\Users\justin.moser\Dropbox\Work\Battleships\Battleships\Battleships\obj\x86\Debug\Battleships.exe
+C:\Users\justin.moser\Dropbox\Work\Battleships\Battleships\Battleships\obj\x86\Debug\Battleships.pdb
+C:\Users\Justin\Dropbox\Work\Battleships\Battleships\Battleships\bin\Debug\Battleships.exe.config
+C:\Users\Justin\Dropbox\Work\Battleships\Battleships\Battleships\obj\x86\Debug\Battleships.exe
+C:\Users\Justin\Dropbox\Work\Battleships\Battleships\Battleships\obj\x86\Debug\Battleships.pdb
