@@ -14,14 +14,15 @@ namespace Battleships
 
         static void Main(string[] args)
         {
+            var grid = new Grid(10, 10);
+
             var fleet = new Fleet(new List<Ship>
             {
-                new Ship(ShipType.Battleship, ShipOrientation.Horizontal, 10, 10),
-                new Ship(ShipType.Destroyer, ShipOrientation.Vertical, 10, 10),
-                new Ship(ShipType.Destroyer, ShipOrientation.Horizontal, 10, 10)
+                new Ship(ShipType.Battleship, ShipOrientation.Horizontal, grid.Width, grid.Height),
+                new Ship(ShipType.Destroyer, ShipOrientation.Vertical, grid.Width, grid.Height),
+                new Ship(ShipType.Destroyer, ShipOrientation.Horizontal, grid.Width, grid.Height)
             });
 
-            var grid = new Grid(10,10);
             grid.PlaceShipsOnGrid(fleet);
         }
     }
