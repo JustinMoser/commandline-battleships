@@ -32,12 +32,7 @@ namespace Battleships.Managers
 
         public bool ShipIsSunk(Ship ship)
         {
-            if (ship.Health == 0)
-            {
-                return true;
-            }
-
-            return false;
+            return ship.Health == 0;
         }
     }
 }
