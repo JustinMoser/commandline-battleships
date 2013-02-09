@@ -10,3 +10,6 @@ C:\Users\justin.moser\Dropbox\Work\Battleships\Battleships\Battleships\obj\x86\D
 C:\Users\Justin\Dropbox\Work\Battleships\Battleships\Battleships\bin\Debug\Battleships.exe.config
 C:\Users\Justin\Dropbox\Work\Battleships\Battleships\Battleships\obj\x86\Debug\Battleships.exe
 C:\Users\Justin\Dropbox\Work\Battleships\Battleships\Battleships\obj\x86\Debug\Battleships.pdb
+F:\Work Projects\GitHub\commandline-battleships\Battleships\bin\Debug\Battleships.exe.config
+F:\Work Projects\GitHub\commandline-battleships\Battleships\obj\x86\Debug\Battleships.exe
+F:\Work Projects\GitHub\commandline-battleships\Battleships\obj\x86\Debug\Battleships.pdb

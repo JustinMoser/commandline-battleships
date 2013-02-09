@@ -13,6 +13,12 @@ namespace Battleships.Managers
     /// Returns result of shot to console, abstracts any response logic and feedback to console into own class.
     /// Instantiates CellManager, ShipManager and FleetManager
     ///</summary>
+    /// <example>
+    /// var grid = new Grid(10,10)
+    /// var fleet = new Fleet(new List<Ship>());
+    /// var turnMgr = new TurnManager(grid, fleet)
+    /// turnMgr.TakeTurn(5,7);
+    /// </example>
     public class TurnManager
     {
         private CellManager _cellManager { get; set; }
@@ -38,7 +44,6 @@ namespace Battleships.Managers
             else
             {
                 Console.WriteLine("BOOM! Hit!");
-                cell.GridCellType = GridCellType.OpenWater;
                 var shipAtCell = _shipManager.ShipById(cell.ShipId);
                 shipAtCell.Health += -1;
                 if (_shipManager.ShipIsSunk(shipAtCell))
@@ -51,6 +56,7 @@ namespace Battleships.Managers
                         Console.WriteLine("Fleet Destroyed! Congratulations! You Win!");
                     }
                 }
+                cell.GridCellType = GridCellType.OpenWater;
             }
         }
     }
